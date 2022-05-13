@@ -124,7 +124,7 @@ int main()
 
 		//Display Sales
 		if (mOption == "4") {
-			//need sold(s), price(p), total(t)
+			
 
 			//total price = sold * price
 			totalPasta = sPasta * pPasta;
@@ -149,7 +149,9 @@ int main()
 			}
 
 			double totSales = totalBurger + totalChicken + totalPasta + totalShakes + totalSoups;//adds total prices
+			int totItems = sBurger + sSoups + sShakes + sChicken + sPasta;
 
+			cout << endl << "total items sold: " << totItems;
 			cout << endl << "Total sales of items: $" << totSales << endl;
 
 		}
@@ -192,7 +194,6 @@ void displayInventory(int& p, int& b, int& s, int& sh, int& c, int& iP, int& iB,
 	}
 
 
-	//return string();
 }
 
 int orderItems(int& p, int& b, int& s, int& sh, int& c, int& iP, int& iB, int& iS, int& iSh, int& iC, int& opt)
