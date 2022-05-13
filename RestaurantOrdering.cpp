@@ -151,7 +151,7 @@ int main()
 			double totSales = totalBurger + totalChicken + totalPasta + totalShakes + totalSoups;//adds total prices
 			int totItems = sBurger + sSoups + sShakes + sChicken + sPasta;
 
-			cout << endl << "total items sold: " << totItems;
+			cout << endl << "Total items sold: " << totItems;
 			cout << endl << "Total sales of items: $" << totSales << endl;
 
 		}
