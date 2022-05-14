@@ -5,11 +5,12 @@ This console application allows users to enter the number and price of pre-deter
 **Why:**
 I created this to practice C++. Initially, I started with a Hotel Management System tutorial but made it an ordering/inventory system for a restaurant. 
 
-**Functions:**
+# Functions:
  
-Display Inventory function ( displayItems() )
+**Display Inventory function ( displayItems() )**
 
-    * The function takes in the initial inventory - ordered inventory through the currInventory function. This is later converted to a string. Converting the values to a string isn’t necessary, but I wanted to try the function out.
+    * The function takes in the initial inventory - ordered inventory through the currInventory function.
+     This is later converted to a string. Converting the values to a string isn’t necessary, but I wanted to try the function out.
 
     * Parameters:
 
@@ -18,6 +19,7 @@ Display Inventory function ( displayItems() )
         * Lower & upper: initial quantity (ex: qPasta)
 
 ![Main Menu](./Screenshots/initInv.PNG)
+
 **Initial inventory* 
 
 
@@ -29,7 +31,8 @@ Display Inventory function ( displayItems() )
 
 
 
-Order Items function ( orderItems() )
+
+**Order Items function ( orderItems() )**
 
     * Parameters same as displayInventory() with added option variable (referenced)
 
@@ -49,7 +52,9 @@ Order Items function ( orderItems() )
 
 ![Main Menu](./Screenshots/orderExit.PNG)
 
-Current Inventory function ( currInventory() )
+
+
+**Current Inventory function ( currInventory() )**
 
     * Simple function that subtracts sold inventory from initial inventory
 
