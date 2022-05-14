@@ -42,6 +42,6 @@ Current Inventory function ( currInventory() )
 
 # Screenshots
 
-![Image](Screenshots/mainMenu.png) 
+![Main Menu](mainMenu.png) 
 
 
