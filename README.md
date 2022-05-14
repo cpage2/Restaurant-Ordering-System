@@ -18,8 +18,15 @@ Display Inventory function ( displayItems() )
         * Lower & upper: initial quantity (ex: qPasta)
 
 ![Main Menu](./Screenshots/initInv.PNG)
+**Initial inventory* 
+
 
 ![Main Menu](./Screenshots/newInv.PNG)
+
+**Burgers are down to 3 from 6. Chicken is down to 6 from 9.*
+
+**Can see items ordered below in orderItems()*
+
 
 
 Order Items function ( orderItems() )
