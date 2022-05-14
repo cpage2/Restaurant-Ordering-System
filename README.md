@@ -40,4 +40,8 @@ Current Inventory function ( currInventory() )
 
     * Used in displayInventory()
 
+# Screenshots
+
+![Image](RestaurantOrdering/Screenshots/mainMenu.png)
+
 
