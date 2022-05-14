@@ -17,8 +17,9 @@ Display Inventory function ( displayItems() )
 
         * Lower & upper: initial quantity (ex: qPasta)
 
-    ![Main Menu](./Screenshots/initInv.PNG)
-    ![Main Menu](./Screenshots/newInv.PNG)
+![Main Menu](./Screenshots/initInv.PNG)
+
+![Main Menu](./Screenshots/newInv.PNG)
 
 
 Order Items function ( orderItems() )
@@ -30,13 +31,16 @@ Order Items function ( orderItems() )
     * Users can pick an item from the list to order, and input the amount they want. 
 
         * The user’s input is subtracted from the item’s inventory to check for stock limits. If the difference enters the negatives, users are given a “Not enough stock” statement and are returned to the menu.
-        ![Main Menu](./Screenshots/order2.PNG)
+        
+![Main Menu](./Screenshots/order2.PNG)
 
         * If the difference is equal to or greater than 0, they get an “Order processed” statement with the amount they ordered. Also, the amount is returned to be used in currInventory().
-        ![Main Menu](./Screenshots/order1.PNG)
+
+![Main Menu](./Screenshots/order1.PNG)
 
     * Once done, users can press “0” to exit the order menu to go back to the original menu.
-    ![Main Menu](./Screenshots/orderExit.PNG)
+
+![Main Menu](./Screenshots/orderExit.PNG)
 
 Current Inventory function ( currInventory() )
 
@@ -51,10 +55,12 @@ Current Inventory function ( currInventory() )
 ![Main Menu](./Screenshots/mainMenu.PNG)
 
 ![Set Inventory](./Screenshots/setInv.PNG)
+
 **Setting inventory and prices*
 
 
 ![Sales](./Screenshots/sales.PNG)
+
 **Displays total sales with amounts sold*
 
 
